@@ -1,6 +1,4 @@
 FROM ubuntu:latest
-
 RUN apt-get update
 RUN apt-get upgrade -y
-
-CMD echo "Hello, World!"
+CMD ["echo", "Hello, World!"]
